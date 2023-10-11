@@ -25,6 +25,8 @@ jobs:
       - name: Tag Docker Image
         run: docker tag because-ml-engine:v0.06 ghcr.io/nirmalnegi07/because-ml-engine:v0.06
 
+        
+
       - name: Push Docker Image to GHCR
         run: docker push ghcr.io/nirmalnegi07/because-ml-engine:v0.06
 
