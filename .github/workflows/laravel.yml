@@ -27,3 +27,4 @@ jobs:
 
       - name: Push Docker Image to GHCR
         run: docker push ghcr.io/nirmalnegi07/because-ml-engine:v0.06
+
