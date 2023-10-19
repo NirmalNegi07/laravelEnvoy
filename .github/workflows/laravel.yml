@@ -17,6 +17,6 @@ jobs:
           echo ${{ secrets.GHCR_PAT }} | docker login ghcr.io -u NirmalNegi07 --password-stdin
 
       - name: Build Docker Image
-        run: | echo "hello"
-
-
+        run: |
+          echo "hello"
+          # Your actual Docker build commands go here
